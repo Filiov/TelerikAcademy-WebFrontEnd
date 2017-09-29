@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration form</title>
+    <style>
+    table tr td{
+        border: 0.01cm solid gray;
+    }
+</style>
+</head>
+<body>
+        <form method="get" action="#">
+    <table>
+       
+        <tbody>
+            <tr>
+                <td><label for="ln">Last Name</label></td>
+                <td colspan="3" rowspan="1"> <input type="text" id="ln" /></td>
+            </tr>
+            <tr>
+                <td><label for="fn">First Name</label></td>
+                <td colspan="3" rowspan="1"> <input type="text" id="fn" /></td>
+            </tr>
+            <tr>
+                <td><label for="ad">Adress</label></td>
+                <td colspan="3" rowspan="1"> <input type="text" id="ad" /></td>
+            </tr>
+            <tr>
+                <td><label for="ci">City</label></td>
+                <td> <input type="text" id="ci" /></td>
+                <td><label for="st">State</label></td>
+                <td> <input type="text" id="st" /></td>
+            </tr>
+            <tr>
+                <td><label for="pc">Zip/Postal Code</label></td>
+                <td colspan="3" rowspan="1"> <input type="number" id="pc" /></td>
+            </tr>
+            <tr>
+                <td><label for="cn">Country</label></td>
+                <td colspan="3" rowspan="1"> <select name="country">
+                    <option value="Value 1"selected="selected">Bulgaria</option>
+                    <option value="Value 2">Germany</option>
+                    <option value="Value 3">England</option>
+                    <option value="Value 4">Spain</option>
+                    <option value="Value 5">France</option>
+                  </select></td>
+            </tr>
+            <tr>
+                <td><label for="tel">Phone (county code,</br>area code,number)</label></td>
+                <td colspan="3" rowspan="1"> <input type="tel" id="tel" /></td>
+            </tr>
+            <tr>
+                <td><label for="ml">E-mail</label></td>
+                <td colspan="3" rowspan="1"> <input type="email" id="ml" size="35"/></td>
+            </tr>
+            <tr>
+                <td><label for="bd">Birth date</label></td>
+                <td colspan="3" rowspan="1">Month<input lenght= "2px" type="baby" id="bg" />Day<input type="text" id="bg" />Year(4 digit)<input type="year" id="bg"/></td>
+            </tr>
+            <tr>
+                <td><label for="gd">Gender</label></td>
+                <td colspan="3" rowspan="1"> <select name="country">
+                    <option value="Value 1"selected="selected">Male</option>
+                    <option value="Value 2">Female</option>          
+                  </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="gd">Starting date</label></td> 
+                <td colspan="3" rowspan="1"><input type="radio" name="date" value="Spring 2017" /><span>Spring 2017</span>
+                    <input type="radio" name="date" value="Summer 2017" /><span>Summer 2017</span>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="cq">Comments/Questions</label></td>
+                <td colspan="3" rowspan="1"> <input type="text" id="cq" /></td>
+            </tr>
+            <tr>
+                <td align="center" rowspan="1" colspan="4" style="background-color:lightblue">
+                        <input type="submit" name="submit" value="Submit" />
+                        <input type="reset" value="Clear This Form" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>

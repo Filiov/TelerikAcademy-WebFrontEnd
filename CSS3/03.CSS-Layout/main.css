@@ -1,0 +1,36 @@
+html {
+    font-size: 20px;
+}
+#main {
+    width: 200px;
+    min-width: 100px;
+    
+    font-size: 1rem;
+    overflow: scroll;
+}
+
+.inner-div {
+    border: 1px solid black;
+    width: 50%;
+
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+}
+
+.collapsed {
+    visibility: collapse;
+}
+
+#pos {
+    border: 1px solid black;
+    min-width: 100px;
+}
+
+.second {
+    border: 1px solid black;
+    top: 10px;
+    left: 0;
+    position: relative;
+}

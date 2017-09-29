@@ -1,0 +1,45 @@
+body {
+    background: url('./images/back.jpg');
+    font-style: oblique;
+    font-size: 30px;
+    background-attachment: fixed;
+}
+
+.text-inherit {
+    background-color: white;
+    font-family: 'Gochi Hand';
+
+}
+
+.text-normal {
+    font-family: 'Yesteryear';
+    font-weight: 900;
+    font-size: 150%;
+    text-shadow: 5px 10px 4px gray;
+}
+
+a {
+    text-decoration: none;   
+}
+
+.text-wrap {
+    border: 1px solid black;
+    word-wrap: break-word;
+}
+
+.border-test {
+    border-style: dashed;
+    border-color:palevioletred;
+    border-width: 3px;
+    border-radius: 15px;
+
+}
+
+div {
+    color: #E42F2F;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 5px #E42F2F;
+    background-image: url('./images/cat.jpg');
+    text-align: center;
+}

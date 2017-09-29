@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#" method="get">
+        <input name="Username" type="text">
+        <input name="Password" type="password">
+        
+<!-- Reset and Submit Buttons -->
+        <input type="reset" name="resetBtn" value="Reset the form" />
+        <input type="submit" name="submitBtn" value="Submit" /> 
+<!-- Radio Buttons -->
+        What are you?:
+        <input type="radio" name="gender" value="Man" />
+        <input type="radio" name="gender" value="Woman" />
+        <br />
+        <input type="submit">
+<!-- Select Fields -->
+        <select name="gender">
+            <option value="Value 1"selected="selected">Male</option>
+            <option value="Value 2">Female</option>
+            <option value="Value 3">Other</option>
+          </select>
+<!-- Hidden Fields -->
+        <input type="text" name="Username">
+        <input type="text" name="Email">
+        <input type="hidden" name="Something-Hidden" value="something smart">
+
+        <input type="submit">
+<!-- Labels -->
+        <label for="fn">First Name</label>
+        <input type="text" id="fn" />
+        </form>
+        <br />
+<!-- Fieldsets -->
+        <form method="get" action="#">
+                <fieldset>
+                   <legend>Client Details</legend>
+                   <input type="text" id="Name" placeholder="Full Name"/>
+                   <input type="text" id="Phone" />
+                </fieldset>
+                <fieldset>
+                   <legend>Order Details</legend>
+                   <input type="text" id="Quantity" />
+                   <textarea cols="40" rows="10" id="Remarks">
+                   </textarea>
+                </fieldset>
+             </form>
+ <!-- Sliders -->
+             <input type="range" min="0" max="100" />
+             <input type="number" min="0" max="100" />
+<!-- Field Attributes --> 
+            <form action="#" method="get">
+                    <input type="text" name="name" value="" required="required">
+                    <input type="text" name="name" value="">
+                    <input type="text" name="FirstName" autofocus="autofocus">
+                    <input type="submit" name="name" value="Submit">
+                    <input type="tel" name="tel">
+            </form>
+<!-- Tab Index -->    
+        <input type="text" name="second" tabindex="10" />
+        <input type="text" name="first" tabindex="5" />
+
+   
+</body>
+
+</html>
